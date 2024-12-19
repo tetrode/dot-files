@@ -70,6 +70,8 @@ cask 'slack'
 # cask 'visual-studio-code'
 # cask 'zoom'
 
+cask 'rectangle'
+
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
