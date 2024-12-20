@@ -1,80 +1,36 @@
 # Taps
-## tap 'homebrew/cask-fonts'
-## tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-# tap 'stripe/stripe-cli'
 
 # Binaries
-# brew 'awscli'
 brew 'bash' # Latest Bash version
-# brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
-# brew 'ffmpeg'
-# brew 'gh'
 brew 'git'
 brew 'grep'
 brew 'ripgrep'
-# brew 'httpie'
-brew 'jq' # Used for spatie/visit
+brew 'jq'
 brew 'mackup'
-brew 'mas' # Mac App Store manager
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-# brew 'stripe/stripe-cli/stripe'
-# brew 'stripe/stripe-mock/stripe-mock'
-brew 'svn' # Needed to install fonts
-
-## Spatie Medialibrary
-# brew 'jpegoptim'
-# brew 'optipng'
-# brew 'pngquant'
-# brew 'svgo'
-# brew 'gifsicle'
-
-# Development
-# brew 'imagemagick'
-# brew 'yarn'
-
-cask 'phpstorm'
-
-cask 'pycharm'
-
-cask 'datagrip'
-
-cask 'orbstack'
+brew 'mas'
+brew 'pkg-config'
+brew 'svn'
 
 # Apps
+cask 'phpstorm'
+cask 'pycharm'
+cask 'datagrip'
+cask 'orbstack'
 cask '1password'
-# brew '1password-cli'
-# cask 'caffeine'
-# cask 'discord'
 cask 'docker'
-# cask 'figma'
-# cask 'firefox'
 cask 'github'
-# cask 'google-chrome'
-# cask 'helo'
-# cask 'herd'
-# cask 'httpie'
-# cask 'imageoptim'
-# cask 'pastebot'
-# cask 'readdle-spark'
-# cask 'screenflow'
 cask 'slack'
-# cask 'tableplus'
-# cask 'telegram-desktop'
-# cask 'the-unarchiver'
-# cask 'tinkerwell'
-# cask 'transmit'
-# cask 'tunnelbear'
-# cask 'tuple'
-# cask 'visual-studio-code'
-# cask 'zoom'
-
 cask 'rectangle'
-
-# Quicklook
-cask 'qlmarkdown'
-cask 'quicklook-json'
+cask 'microsoft-remote-desktop'
+cask 'raycast'
+cask 'whatsapp'
+cask 'adium'
+cask 'cyberduck'
+cask 'microsoft-teams'
+cask 'soapui'
+brew 'wireshark'
 
 # Fonts
 cask 'font-lato'
