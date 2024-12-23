@@ -29,6 +29,10 @@ brew bundle --file ./Brewfile
 ## Set default MySQL root password and auth type
 #mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
+# install Battery-Toolkit
+echo go to https://github.com/mhaeuser/Battery-Toolkit/releases and install the latest release
+read
+
 # Create a projects directories
 mkdir $HOME/code
 
