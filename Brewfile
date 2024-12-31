@@ -48,6 +48,8 @@ tap 'shivammathur/php'
 brew 'shivammathur/php/php@7.4'
 brew 'composer'
 
+cask 'caffeine'
+cask 'betterdisplay'
 # # Mac App Store
 # mas 'Byword', id: 420212497
 # mas 'Giphy Capture', id: 668208984
