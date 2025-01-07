@@ -1,10 +1,10 @@
 # Taps
 tap 'homebrew/bundle'
+tap 'shivammathur/php'
 
 # Binaries
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'git'
 brew 'grep'
 brew 'ripgrep'
 brew 'jq'
@@ -12,25 +12,36 @@ brew 'mackup'
 brew 'mas'
 brew 'pkg-config'
 brew 'svn'
+brew 'openconnect'
 
-# Apps
+# Development
+brew 'git'
+cask 'docker'
 cask 'phpstorm'
 cask 'pycharm'
 cask 'datagrip'
 cask 'orbstack'
-cask '1password'
-cask 'docker'
 cask 'github'
+brew 'composer'
+brew 'php@8.4'
+brew 'php@8.3'
+brew 'php@8.1'
+brew 'shivammathur/php/php@7.4'
+cask 'soapui'
+brew 'wireshark'
+
+# company software
+cask '1password'
 cask 'slack'
-cask 'rectangle'
 cask 'microsoft-remote-desktop'
+cask 'microsoft-teams'
+
+# tooling
+cask 'rectangle'
 cask 'raycast'
 cask 'whatsapp'
 cask 'adium'
 cask 'cyberduck'
-cask 'microsoft-teams'
-cask 'soapui'
-brew 'wireshark'
 
 # Fonts
 cask 'font-lato'
@@ -40,13 +51,6 @@ cask 'font-roboto'
 cask 'font-source-code-pro'
 # cask 'font-source-sans-pro'
 # cask 'font-source-serif-pro'
-brew 'php@8.4'
-brew 'php@8.3'
-brew 'php@8.1'
-
-tap 'shivammathur/php'
-brew 'shivammathur/php/php@7.4'
-brew 'composer'
 
 cask 'caffeine'
 cask 'betterdisplay'
