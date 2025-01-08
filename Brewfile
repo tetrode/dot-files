@@ -13,6 +13,7 @@ brew 'mas'
 brew 'pkg-config'
 brew 'svn'
 brew 'openconnect'
+brew 'pwgen'
 
 # Development
 brew 'git'
@@ -35,6 +36,7 @@ cask '1password'
 cask 'slack'
 cask 'microsoft-remote-desktop'
 cask 'microsoft-teams'
+cask 'drawio'
 
 # tooling
 cask 'rectangle'
