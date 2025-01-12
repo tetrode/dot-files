@@ -29,7 +29,12 @@ brew 'php@8.3'
 brew 'php@8.1'
 brew 'shivammathur/php/php@7.4'
 cask 'soapui'
+cask 'htop'
 brew 'wireshark'
+# brew 'mc'
+# mc does not work, use https://github.com/krolig/mc/releases/download/4.8.26/mc-4.8.26-x86_64-ncurses.dmg - found via https://midnight-commander.org
+brew 'wget'
+cask 'rar'
 
 # company software
 cask '1password'
@@ -37,6 +42,7 @@ cask 'slack'
 cask 'microsoft-remote-desktop'
 cask 'microsoft-teams'
 cask 'drawio'
+cask 'google-drive'
 
 # tooling
 cask 'rectangle'
@@ -44,6 +50,8 @@ cask 'raycast'
 cask 'whatsapp'
 cask 'adium'
 cask 'cyberduck'
+cask 'daisydisk'
+cask 'far2l'
 
 # Fonts
 cask 'font-lato'
