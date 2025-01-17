@@ -30,7 +30,7 @@ brew 'php@8.2'
 brew 'php@8.1'
 brew 'shivammathur/php/php@7.4'
 cask 'soapui'
-cask 'htop'
+brew 'htop'
 brew 'wireshark'
 # brew 'mc'
 # mc does not work, use https://github.com/krolig/mc/releases/download/4.8.26/mc-4.8.26-x86_64-ncurses.dmg - found via https://midnight-commander.org
