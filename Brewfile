@@ -1,5 +1,4 @@
 # Taps
-tap 'homebrew/bundle'
 tap 'shivammathur/php'
 
 # Binaries
@@ -15,9 +14,8 @@ brew 'pkg-config'
 brew 'svn'
 brew 'openconnect'
 brew 'pwgen'
-# brew 'tailscale'
 brew 'ranger'
-brew 'wireshark'
+cask 'wireshark'
 
 # Development
 brew 'git'
