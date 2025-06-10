@@ -44,6 +44,8 @@ brew 'telnet'
 # mc does not work, use https://github.com/krolig/mc/releases/download/4.8.26/mc-4.8.26-x86_64-ncurses.dmg - found via https://midnight-commander.org
 brew 'wget'
 cask 'rar'
+cask 'utm'
+brew 'qemu'
 
 # company software
 cask '1password'
