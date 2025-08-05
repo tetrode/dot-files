@@ -36,6 +36,7 @@ brew 'php@8.3'
 brew 'php@8.2'
 brew 'php@8.1'
 brew 'shivammathur/php/php@7.4'
+# brew tap infection/homebrew-infection
 cask 'soapui'
 brew 'htop'
 cask 'wireshark-app'

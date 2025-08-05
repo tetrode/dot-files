@@ -3,3 +3,4 @@ cd "$(dirname "$0")/"  || exit
 /opt/homebrew/bin/brew update && \
   /opt/homebrew/bin/brew upgrade &&
   /opt/homebrew/bin/brew bundle --file ./Brewfile > /tmp/dotfile-update.txt
+cat /tmp/dotfile-update.txt
