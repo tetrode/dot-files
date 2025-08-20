@@ -41,6 +41,7 @@ cask 'soapui'
 brew 'htop'
 cask 'wireshark-app'
 brew 'telnet'
+brew 'websocat'
 cask 'commander-one'
 # brew 'mc'
 # mc does not work, use https://github.com/krolig/mc/releases/download/4.8.26/mc-4.8.26-x86_64-ncurses.dmg - found via https://midnight-commander.org
