@@ -15,7 +15,7 @@ brew 'svn'
 brew 'openconnect'
 brew 'pwgen'
 brew 'ranger'
-cask 'wireshark'
+cask 'wireshark-app'
 
 # Development
 brew 'git'
@@ -26,6 +26,7 @@ cask 'datagrip'
 cask 'goland'
 brew 'go'
 brew 'node'
+brew 'luarocks'
 
 cask 'orbstack'
 brew 'dive'
@@ -53,6 +54,7 @@ brew 'qemu'
 
 # company software
 cask '1password'
+cask '1password-cli'
 cask 'slack'
 cask 'microsoft-remote-desktop'
 cask 'microsoft-teams'
