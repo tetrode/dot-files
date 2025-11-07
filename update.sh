@@ -27,3 +27,5 @@ defaults write org.xquartz.X11 enable_iglx -bool true
 
  # Safari download path in /tmp
 defaults write com.apple.Safari DownloadsPath -string "/tmp"
+
+sudo pmset hibernatemode 25
